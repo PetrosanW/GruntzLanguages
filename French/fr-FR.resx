@@ -1771,6 +1771,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>controls</value>
   <comment>controls</comment>
 </data>
+<data name="HoverVerbLabels.ChemHeaterWindow" xml:space="preserve">
+  <value>controls</value>
+  <comment>controls</comment>
+</data>
 <data name="HoverVerbLabels.SmartFridgeWindow" xml:space="preserve">
   <value>contents</value>
   <comment>contents</comment>
@@ -2050,6 +2054,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="HoverVerbLabels.VehicleRefuel" xml:space="preserve">
   <value>pour fuel</value>
   <comment>pour fuel</comment>
+</data>
+<data name="HoverVerbLabels.PenRename" xml:space="preserve">
+  <value>rename</value>
+  <comment>rename</comment>
 </data>
 <data name="ActivateVerbLabels.Wield" xml:space="preserve">
   <value>wield</value>
@@ -2763,6 +2771,18 @@ The file is looked up beside this language file first, then under the game's Con
   <value>NUMBED</value>
   <comment>NUMBED</comment>
 </data>
+<data name="Moodlet.Title.Unsettled" xml:space="preserve">
+  <value>UNSETTLED</value>
+  <comment>UNSETTLED</comment>
+</data>
+<data name="Moodlet.Title.Suppressed" xml:space="preserve">
+  <value>SUPPRESSED</value>
+  <comment>SUPPRESSED</comment>
+</data>
+<data name="Moodlet.Title.Pinned" xml:space="preserve">
+  <value>PINNED</value>
+  <comment>PINNED</comment>
+</data>
 <data name="Moodlet.Title.Fallback" xml:space="preserve">
   <value>~MOODLET</value>
   <comment>~MOODLET</comment>
@@ -3083,6 +3103,18 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Every sound is a hammer</value>
   <comment>Every sound is a hammer</comment>
 </data>
+<data name="Moodlet.Flavor.Suppressed.Unsettled" xml:space="preserve">
+  <value>Rounds are cracking past too close</value>
+  <comment>Rounds are cracking past too close</comment>
+</data>
+<data name="Moodlet.Flavor.Suppressed.Suppressed" xml:space="preserve">
+  <value>Head down, hands shaking</value>
+  <comment>Head down, hands shaking</comment>
+</data>
+<data name="Moodlet.Flavor.Suppressed.Pinned" xml:space="preserve">
+  <value>Pinned flat under the fire</value>
+  <comment>Pinned flat under the fire</comment>
+</data>
 <data name="Moodlet.Flavor.Narcotic.Woozy" xml:space="preserve">
   <value>The edges go soft</value>
   <comment>The edges go soft</comment>
@@ -3326,6 +3358,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Hint.Hungover" xml:space="preserve">
   <value>It passes with time</value>
   <comment>It passes with time</comment>
+</data>
+<data name="Moodlet.Hint.Suppressed" xml:space="preserve">
+  <value>Break line of fire and it fades</value>
+  <comment>Break line of fire and it fades</comment>
 </data>
 <data name="Moodlet.Hint.Narcotic" xml:space="preserve">
   <value>Let it wear off; it is in your blood</value>
@@ -3670,6 +3706,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Unit.Movement" xml:space="preserve">
   <value> Movement</value>
   <comment> Movement</comment>
+</data>
+<data name="Moodlet.Unit.SuppressionTaken" xml:space="preserve">
+  <value> Suppression taken</value>
+  <comment> Suppression taken</comment>
 </data>
 <data name="Moodlet.Unit.Walking" xml:space="preserve">
   <value> Walking</value>
@@ -4211,6 +4251,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>INJECT</value>
   <comment>INJECT</comment>
 </data>
+<data name="FuelOpenChip.Open" xml:space="preserve">
+  <value>OPEN</value>
+  <comment>OPEN</comment>
+</data>
+<data name="FuelOpenChip.Closed" xml:space="preserve">
+  <value>CLOSED</value>
+  <comment>CLOSED</comment>
+</data>
 <data name="TrolleyUi.Adjacent" xml:space="preserve">
   <value>ADJACENT</value>
   <comment>ADJACENT</comment>
@@ -4570,6 +4618,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="TraitChips.Unit.AlcoholEffects" xml:space="preserve">
   <value> Alcohol effects</value>
   <comment> Alcohol effects</comment>
+</data>
+<data name="TraitChips.Unit.SuppressionTaken" xml:space="preserve">
+  <value> Suppression taken</value>
+  <comment> Suppression taken</comment>
 </data>
 <data name="TraitChips.Marker.DeafToken" xml:space="preserve">
   <value>DEAF</value>
@@ -6695,6 +6747,164 @@ The file is looked up beside this language file first, then under the game's Con
   <value>CHARGE {PERCENT}%</value>
   <comment>CHARGE {PERCENT}%</comment>
 </data>
+<data name="ChemHeater.HeaderFallback" xml:space="preserve">
+  <value>CHEMICAL HEATER</value>
+  <comment>CHEMICAL HEATER</comment>
+</data>
+<data name="ChemHeater.UnitLine" xml:space="preserve">
+  <value>THERMAL EXCHANGE UNIT TX-4 // W-Y CHEMICAL SYSTEMS
+HEATS OR CHILLS A SEATED BEAKER TOWARD THE SET POINT</value>
+  <comment>THERMAL EXCHANGE UNIT TX-4 // W-Y CHEMICAL SYSTEMS
+HEATS OR CHILLS A SEATED BEAKER TOWARD THE SET POINT</comment>
+</data>
+<data name="ChemHeater.StatusSection" xml:space="preserve">
+  <value>STATUS</value>
+  <comment>STATUS</comment>
+</data>
+<data name="ChemHeater.SetPointSection" xml:space="preserve">
+  <value>SET POINT</value>
+  <comment>SET POINT</comment>
+</data>
+<data name="ChemHeater.BeakerSection" xml:space="preserve">
+  <value>BEAKER</value>
+  <comment>BEAKER</comment>
+</data>
+<data name="ChemHeater.PowerKey" xml:space="preserve">
+  <value>POWER</value>
+  <comment>POWER</comment>
+</data>
+<data name="ChemHeater.MixtureKey" xml:space="preserve">
+  <value>MIXTURE</value>
+  <comment>MIXTURE</comment>
+</data>
+<data name="ChemHeater.TargetKey" xml:space="preserve">
+  <value>TARGET</value>
+  <comment>TARGET</comment>
+</data>
+<data name="ChemHeater.StepKey" xml:space="preserve">
+  <value>STEP</value>
+  <comment>STEP</comment>
+</data>
+<data name="ChemHeater.StepSubtitle" xml:space="preserve">
+  <value>STEP {DEGREES} C</value>
+  <comment>STEP {DEGREES} C</comment>
+</data>
+<data name="ChemHeater.RunLabel" xml:space="preserve">
+  <value>RUN</value>
+  <comment>RUN</comment>
+</data>
+<data name="ChemHeater.HoldLabel" xml:space="preserve">
+  <value>HOLD</value>
+  <comment>HOLD</comment>
+</data>
+<data name="ChemHeater.PowerOnLine" xml:space="preserve">
+  <value>ON // {WATTS} W</value>
+  <comment>ON // {WATTS} W</comment>
+</data>
+<data name="ChemHeater.Degrees" xml:space="preserve">
+  <value>{DEGREES} C</value>
+  <comment>{DEGREES} C</comment>
+</data>
+<data name="ChemHeater.NoReading" xml:space="preserve">
+  <value>--</value>
+  <comment>--</comment>
+</data>
+<data name="ChemHeater.Rising" xml:space="preserve">
+  <value>RISING {DEGREES} C PER CYCLE</value>
+  <comment>RISING {DEGREES} C PER CYCLE</comment>
+</data>
+<data name="ChemHeater.Falling" xml:space="preserve">
+  <value>FALLING {DEGREES} C PER CYCLE</value>
+  <comment>FALLING {DEGREES} C PER CYCLE</comment>
+</data>
+<data name="ChemHeater.Drifting" xml:space="preserve">
+  <value>DRIFTING TOWARD {DEGREES} C</value>
+  <comment>DRIFTING TOWARD {DEGREES} C</comment>
+</data>
+<data name="ChemHeater.Steady" xml:space="preserve">
+  <value>STEADY</value>
+  <comment>STEADY</comment>
+</data>
+<data name="ChemHeater.Heating" xml:space="preserve">
+  <value>HEATING</value>
+  <comment>HEATING</comment>
+</data>
+<data name="ChemHeater.Chilling" xml:space="preserve">
+  <value>CHILLING</value>
+  <comment>CHILLING</comment>
+</data>
+<data name="ChemHeater.Holding" xml:space="preserve">
+  <value>HOLDING</value>
+  <comment>HOLDING</comment>
+</data>
+<data name="ChemHeater.AtSetPoint" xml:space="preserve">
+  <value>AT SET POINT</value>
+  <comment>AT SET POINT</comment>
+</data>
+<data name="ChemHeater.NoPower" xml:space="preserve">
+  <value>NO POWER</value>
+  <comment>NO POWER</comment>
+</data>
+<data name="ChemHeater.BandLine" xml:space="preserve">
+  <value>{DEGREES} C // {BAND}</value>
+  <comment>{DEGREES} C // {BAND}</comment>
+</data>
+<data name="ChemHeater.Hot" xml:space="preserve">
+  <value>HOT</value>
+  <comment>HOT</comment>
+</data>
+<data name="ChemHeater.Chilled" xml:space="preserve">
+  <value>CHILLED</value>
+  <comment>CHILLED</comment>
+</data>
+<data name="ChemHeater.Ambient" xml:space="preserve">
+  <value>AMBIENT</value>
+  <comment>AMBIENT</comment>
+</data>
+<data name="ChemHeater.BoilingOff" xml:space="preserve">
+  <value>BOILING OFF</value>
+  <comment>BOILING OFF</comment>
+</data>
+<data name="ChemHeater.NoBeaker" xml:space="preserve">
+  <value>NO BEAKER</value>
+  <comment>NO BEAKER</comment>
+</data>
+<data name="ChemHeater.EtaLine" xml:space="preserve">
+  <value>SET POINT IN {CYCLES} CYCLES // 1 CYCLE = {SECONDS} S</value>
+  <comment>SET POINT IN {CYCLES} CYCLES // 1 CYCLE = {SECONDS} S</comment>
+</data>
+<data name="ChemHeater.HoldingAtLine" xml:space="preserve">
+  <value>HOLDING THE MIXTURE AT {DEGREES} C</value>
+  <comment>HOLDING THE MIXTURE AT {DEGREES} C</comment>
+</data>
+<data name="ChemHeater.ExchangeOffLine" xml:space="preserve">
+  <value>EXCHANGE OFF // SET POINT IGNORED</value>
+  <comment>EXCHANGE OFF // SET POINT IGNORED</comment>
+</data>
+<data name="ChemHeater.WaitingFor" xml:space="preserve">
+  <value>WAITING FOR {DEGREES} C // {NAME}</value>
+  <comment>WAITING FOR {DEGREES} C // {NAME}</comment>
+</data>
+<data name="ChemHeater.Reacting" xml:space="preserve">
+  <value>REACTING // {NAME}</value>
+  <comment>REACTING // {NAME}</comment>
+</data>
+<data name="ChemHeater.EmptySocketLine" xml:space="preserve">
+  <value>NONE - USE A BEAKER ON THE MACHINE</value>
+  <comment>NONE - USE A BEAKER ON THE MACHINE</comment>
+</data>
+<data name="ChemHeater.NoBeakerLine" xml:space="preserve">
+  <value>NO BEAKER SEATED</value>
+  <comment>NO BEAKER SEATED</comment>
+</data>
+<data name="ChemHeater.EmptyMixLine" xml:space="preserve">
+  <value>BEAKER IS EMPTY</value>
+  <comment>BEAKER IS EMPTY</comment>
+</data>
+<data name="ChemHeater.WattsFootLine" xml:space="preserve">
+  <value>POWER {WATTS} W</value>
+  <comment>POWER {WATTS} W</comment>
+</data>
 <data name="MassSpec.HeaderLine" xml:space="preserve">
   <value>MASS SPECTROMETER</value>
   <comment>MASS SPECTROMETER</comment>
@@ -8199,6 +8409,26 @@ The file is looked up beside this language file first, then under the game's Con
   <value>{COUNT} LEFT</value>
   <comment>{COUNT} LEFT</comment>
 </data>
+<data name="RenamePopup.Title" xml:space="preserve">
+  <value>RENAME</value>
+  <comment>RENAME</comment>
+</data>
+<data name="RenamePopup.Hint" xml:space="preserve">
+  <value>NAME</value>
+  <comment>NAME</comment>
+</data>
+<data name="RenamePopup.CancelLabel" xml:space="preserve">
+  <value>CANCEL</value>
+  <comment>CANCEL</comment>
+</data>
+<data name="RenamePopup.ConfirmLabel" xml:space="preserve">
+  <value>CONFIRM</value>
+  <comment>CONFIRM</comment>
+</data>
+<data name="RenamePopup.CharsLeftLine" xml:space="preserve">
+  <value>{COUNT} LEFT</value>
+  <comment>{COUNT} LEFT</comment>
+</data>
 <data name="TalkPopup.Local" xml:space="preserve">
   <value>Local</value>
   <comment>Local</comment>
@@ -9183,6 +9413,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>SURGERY</value>
   <comment>SURGERY</comment>
 </data>
+<data name="Codex.Kind.Effect" xml:space="preserve">
+  <value>EFFECT</value>
+  <comment>EFFECT</comment>
+</data>
 <data name="Codex.Makes" xml:space="preserve">
   <value>MAKES</value>
   <comment>MAKES</comment>
@@ -9234,6 +9468,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Sect.Treats" xml:space="preserve">
   <value>TREATS</value>
   <comment>TREATS</comment>
+</data>
+<data name="Codex.Sect.Carriers" xml:space="preserve">
+  <value>CARRIERS</value>
+  <comment>CARRIERS</comment>
 </data>
 <data name="Codex.Sect.SoldIn" xml:space="preserve">
   <value>SOLD IN</value>
@@ -9334,6 +9572,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Col.Strength" xml:space="preserve">
   <value>STRENGTH</value>
   <comment>STRENGTH</comment>
+</data>
+<data name="Codex.Col.Overdose" xml:space="preserve">
+  <value>OVERDOSE</value>
+  <comment>OVERDOSE</comment>
 </data>
 <data name="Codex.Col.Use" xml:space="preserve">
   <value>USE</value>
@@ -9458,6 +9700,18 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.NoHeat" xml:space="preserve">
   <value>NONE. NOTHING NEEDS HEATING</value>
   <comment>NONE. NOTHING NEEDS HEATING</comment>
+</data>
+<data name="Codex.HeatAbove" xml:space="preserve">
+  <value>{DEGREES} C OR ABOVE</value>
+  <comment>{DEGREES} C OR ABOVE</comment>
+</data>
+<data name="Codex.HeatBelow" xml:space="preserve">
+  <value>{DEGREES} C OR BELOW</value>
+  <comment>{DEGREES} C OR BELOW</comment>
+</data>
+<data name="Codex.HeatBetween" xml:space="preserve">
+  <value>{LOW} TO {HIGH} C</value>
+  <comment>{LOW} TO {HIGH} C</comment>
 </data>
 <data name="Codex.ThisMix" xml:space="preserve">
   <value>THIS MIX</value>
@@ -10126,6 +10380,134 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Property.Intravenous" xml:space="preserve">
   <value>INJECTION ONLY</value>
   <comment>INJECTION ONLY</comment>
+</data>
+<data name="Codex.Property.Dissociative" xml:space="preserve">
+  <value>DISSOCIATES</value>
+  <comment>DISSOCIATES</comment>
+</data>
+<data name="Codex.Property.Rule.Neogenetic" xml:space="preserve">
+  <value>Mends brute damage on every limb each metabolism cycle, by strength.</value>
+  <comment>Mends brute damage on every limb each metabolism cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Anticorrosive" xml:space="preserve">
+  <value>Mends burn damage on every limb each cycle, by strength.</value>
+  <comment>Mends burn damage on every limb each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Antitoxic" xml:space="preserve">
+  <value>Clears toxin from the body each cycle, by strength.</value>
+  <comment>Clears toxin from the body each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Oxygenating" xml:space="preserve">
+  <value>Restores blood oxygen each cycle, by strength.</value>
+  <comment>Restores blood oxygen each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Cardiostabilizing" xml:space="preserve">
+  <value>Holds a critical patient's heart; an overdose stuns.</value>
+  <comment>Holds a critical patient's heart; an overdose stuns.</comment>
+</data>
+<data name="Codex.Property.Rule.Painkilling" xml:space="preserve">
+  <value>Lowers felt pain by strength each cycle; an overdose poisons.</value>
+  <comment>Lowers felt pain by strength each cycle; an overdose poisons.</comment>
+</data>
+<data name="Codex.Property.Rule.Organstabilize" xml:space="preserve">
+  <value>Keeps bruised organs quiet while in the blood; they do not act up and do not mend.</value>
+  <comment>Keeps bruised organs quiet while in the blood; they do not act up and do not mend.</comment>
+</data>
+<data name="Codex.Property.Rule.Antihallucinogenic" xml:space="preserve">
+  <value>Marks an antihallucinogen. Nothing in a body reads it yet.</value>
+  <comment>Marks an antihallucinogen. Nothing in a body reads it yet.</comment>
+</data>
+<data name="Codex.Property.Rule.Thermostabilizing" xml:space="preserve">
+  <value>Marks a temperature stabiliser. Nothing in a body reads it yet.</value>
+  <comment>Marks a temperature stabiliser. Nothing in a body reads it yet.</comment>
+</data>
+<data name="Codex.Property.Rule.Explosive" xml:space="preserve">
+  <value>Marks an explosive compound. The bang itself belongs to the reaction that makes it.</value>
+  <comment>Marks an explosive compound. The bang itself belongs to the reaction that makes it.</comment>
+</data>
+<data name="Codex.Property.Rule.Fueling" xml:space="preserve">
+  <value>Burns as fuel in a welder or a flamer tank.</value>
+  <comment>Burns as fuel in a welder or a flamer tank.</comment>
+</data>
+<data name="Codex.Property.Rule.Oxidizing" xml:space="preserve">
+  <value>Marks an oxidiser. Nothing in a body or on a floor reads it yet.</value>
+  <comment>Marks an oxidiser. Nothing in a body or on a floor reads it yet.</comment>
+</data>
+<data name="Codex.Property.Rule.Neuropeutic" xml:space="preserve">
+  <value>Mends the brain each cycle, by strength.</value>
+  <comment>Mends the brain each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Oculopeutic" xml:space="preserve">
+  <value>Mends the eyes each cycle, by strength.</value>
+  <comment>Mends the eyes each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Hemostatic" xml:space="preserve">
+  <value>Halts external bleeding and slows internal bleeding while in the blood.</value>
+  <comment>Halts external bleeding and slows internal bleeding while in the blood.</comment>
+</data>
+<data name="Codex.Property.Rule.Bonemending" xml:space="preserve">
+  <value>Knits a fracture each cycle, faster under a splint.</value>
+  <comment>Knits a fracture each cycle, faster under a splint.</comment>
+</data>
+<data name="Codex.Property.Rule.Toxic" xml:space="preserve">
+  <value>Deals toxin damage each cycle, by strength.</value>
+  <comment>Deals toxin damage each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Corrosive" xml:space="preserve">
+  <value>Burns from the inside each cycle, by strength.</value>
+  <comment>Burns from the inside each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Hypoxemic" xml:space="preserve">
+  <value>Starves the blood of oxygen each cycle, by strength.</value>
+  <comment>Starves the blood of oxygen each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Nutritious" xml:space="preserve">
+  <value>Feeds the body as it is digested.</value>
+  <comment>Feeds the body as it is digested.</comment>
+</data>
+<data name="Codex.Property.Rule.Hydrating" xml:space="preserve">
+  <value>Hydrates the body as it is digested.</value>
+  <comment>Hydrates the body as it is digested.</comment>
+</data>
+<data name="Codex.Property.Rule.Veinmending" xml:space="preserve">
+  <value>Cures internal bleeding over time, by strength.</value>
+  <comment>Cures internal bleeding over time, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Stimulant" xml:space="preserve">
+  <value>Quickens movement by its strength in percent while any is in the blood; the strongest carrier applies.</value>
+  <comment>Quickens movement by its strength in percent while any is in the blood; the strongest carrier applies.</comment>
+</data>
+<data name="Codex.Property.Rule.Sedative" xml:space="preserve">
+  <value>Knocks the host out once the dose in the blood reaches the strength, read as units.</value>
+  <comment>Knocks the host out once the dose in the blood reaches the strength, read as units.</comment>
+</data>
+<data name="Codex.Property.Rule.Antiradiation" xml:space="preserve">
+  <value>Blunts the radiation dose taken while in the blood.</value>
+  <comment>Blunts the radiation dose taken while in the blood.</comment>
+</data>
+<data name="Codex.Property.Rule.Alcoholic" xml:space="preserve">
+  <value>Raises blood alcohol per unit burned, by strength; drunkenness dulls pain.</value>
+  <comment>Raises blood alcohol per unit burned, by strength; drunkenness dulls pain.</comment>
+</data>
+<data name="Codex.Property.Rule.Focusing" xml:space="preserve">
+  <value>Strips alcohol from the blood each cycle, by strength; an overdose poisons.</value>
+  <comment>Strips alcohol from the blood each cycle, by strength; an overdose poisons.</comment>
+</data>
+<data name="Codex.Property.Rule.Narcotic" xml:space="preserve">
+  <value>Clouds the mind by the Oxycodone-equivalent dose in the blood: numbed, woozy, doped, then overdosed.</value>
+  <comment>Clouds the mind by the Oxycodone-equivalent dose in the blood: numbed, woozy, doped, then overdosed.</comment>
+</data>
+<data name="Codex.Property.Rule.Cryometabolizing" xml:space="preserve">
+  <value>Works only inside an operating cryo cell, where every other effect is boosted.</value>
+  <comment>Works only inside an operating cryo cell, where every other effect is boosted.</comment>
+</data>
+<data name="Codex.Property.Rule.Intravenous" xml:space="preserve">
+  <value>Works only when injected; swallowed, it is lost.</value>
+  <comment>Works only when injected; swallowed, it is lost.</comment>
+</data>
+<data name="Codex.Property.Rule.Dissociative" xml:space="preserve">
+  <value>Cuts the suppression a passing round charges by its strength in percent; carriers multiply, so two drugs cut deeper than one.</value>
+  <comment>Cuts the suppression a passing round charges by its strength in percent; carriers multiply, so two drugs cut deeper than one.</comment>
 </data>
 <data name="Codex.Surgery.Stats" xml:space="preserve">
   <value>STATS</value>
@@ -14564,6 +14946,38 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Ossein Extract bottle</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.OsseinExtract.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.DisplayName" xml:space="preserve">
+  <value>Coagulex autoinjector</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Spent.DisplayName" xml:space="preserve">
+  <value>Coagulex autoinjector</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Spent.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses1.DisplayName" xml:space="preserve">
+  <value>Coagulex autoinjector</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses1.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses2.DisplayName" xml:space="preserve">
+  <value>Coagulex autoinjector</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses2.Verb.PickUp" xml:space="preserve">
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
@@ -49327,7 +49741,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Verb.Toggle" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Verb.Toggle.State" xml:space="preserve">
+  <value>closed</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Family" xml:space="preserve">
+  <value>fuel tanks</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.DisplayName" xml:space="preserve">
+  <value>fuel can</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Verb.Toggle" xml:space="preserve">
+  <value>close</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Family" xml:space="preserve">
   <value>fuel tanks</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49339,7 +49781,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Verb.Toggle" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Verb.Toggle.State" xml:space="preserve">
+  <value>closed</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.High.Family" xml:space="preserve">
+  <value>fuel tanks</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.DisplayName" xml:space="preserve">
+  <value>fuel can</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Verb.Toggle" xml:space="preserve">
+  <value>close</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Family" xml:space="preserve">
   <value>fuel tanks</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49351,7 +49821,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Verb.Toggle" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Verb.Toggle.State" xml:space="preserve">
+  <value>closed</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Family" xml:space="preserve">
+  <value>fuel tanks</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.DisplayName" xml:space="preserve">
+  <value>fuel can</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Verb.Toggle" xml:space="preserve">
+  <value>close</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Family" xml:space="preserve">
   <value>fuel tanks</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49363,7 +49861,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Verb.Toggle" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Verb.Toggle.State" xml:space="preserve">
+  <value>closed</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Low.Family" xml:space="preserve">
+  <value>fuel tanks</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.DisplayName" xml:space="preserve">
+  <value>fuel can</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Verb.Toggle" xml:space="preserve">
+  <value>close</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>open</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Family" xml:space="preserve">
   <value>fuel tanks</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49376,30 +49902,6 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Empty.Family" xml:space="preserve">
-  <value>fuel tanks</value>
-  <comment>fuel tanks</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt1.DisplayName" xml:space="preserve">
-  <value>fuel can</value>
-  <comment>fuel can</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt1.Verb.PickUp" xml:space="preserve">
-  <value>pick up</value>
-  <comment>pick up</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt1.Family" xml:space="preserve">
-  <value>fuel tanks</value>
-  <comment>fuel tanks</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt2.DisplayName" xml:space="preserve">
-  <value>fuel can</value>
-  <comment>fuel can</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt2.Verb.PickUp" xml:space="preserve">
-  <value>pick up</value>
-  <comment>pick up</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt2.Family" xml:space="preserve">
   <value>fuel tanks</value>
   <comment>fuel tanks</comment>
 </data>
@@ -66099,14 +66601,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.DisplayName" xml:space="preserve">
-  <value>HG 37-12 pump shotgun</value>
-  <comment>HG 37-12 pump shotgun</comment>
-</data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.Verb.PickUp" xml:space="preserve">
-  <value>pick up</value>
-  <comment>pick up</comment>
-</data>
 <data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.M3717.DisplayName" xml:space="preserve">
   <value>M37-17 pump shotgun</value>
   <comment>M37-17 pump shotgun</comment>
@@ -66120,14 +66614,6 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>M37-17 pump shotgun</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.M3717.Harness.Verb.PickUp" xml:space="preserve">
-  <value>pick up</value>
-  <comment>pick up</comment>
-</data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.Swat.DisplayName" xml:space="preserve">
-  <value>HG 37-12 pump shotgun</value>
-  <comment>HG 37-12 pump shotgun</comment>
-</data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.Swat.Verb.PickUp" xml:space="preserve">
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
@@ -77099,6 +77585,38 @@ The file is looked up beside this language file first, then under the game's Con
   <value>portable generator</value>
   <comment>portable generator</comment>
 </data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.DisplayName" xml:space="preserve">
+  <value>chemical heater</value>
+  <comment>chemical heater</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.Verb.Toggle" xml:space="preserve">
+  <value>turn off</value>
+  <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.Off.DisplayName" xml:space="preserve">
+  <value>chemical heater</value>
+  <comment>chemical heater</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.Off.Verb.Toggle" xml:space="preserve">
+  <value>turn on</value>
+  <comment>turn on</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.Loaded.DisplayName" xml:space="preserve">
+  <value>chemical heater</value>
+  <comment>chemical heater</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.Loaded.Verb.Toggle" xml:space="preserve">
+  <value>turn off</value>
+  <comment>turn off</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.Loaded.Off.DisplayName" xml:space="preserve">
+  <value>chemical heater</value>
+  <comment>chemical heater</comment>
+</data>
+<data name="Def.Obj.Structure.Machinery.ChemHeater.Loaded.Off.Verb.Toggle" xml:space="preserve">
+  <value>turn on</value>
+  <comment>turn on</comment>
+</data>
 <data name="Def.Obj.Item.Device.GeigerCounter.DisplayName" xml:space="preserve">
   <value>geiger counter</value>
   <comment>geiger counter</comment>
@@ -77250,6 +77768,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Structure.Largecrate.Machine.ChemMaster.DisplayName" xml:space="preserve">
   <value>ChemMaster crate</value>
   <comment>ChemMaster crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemHeater.Descending.DisplayName" xml:space="preserve">
+  <value>chemical heater crate</value>
+  <comment>chemical heater crate</comment>
+</data>
+<data name="Def.Obj.Structure.Largecrate.Machine.ChemHeater.DisplayName" xml:space="preserve">
+  <value>chemical heater crate</value>
+  <comment>chemical heater crate</comment>
 </data>
 <data name="Def.Obj.Structure.Largecrate.Machine.ChemDispenser.Descending.DisplayName" xml:space="preserve">
   <value>chemical dispenser crate</value>
@@ -77708,6 +78234,54 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>vehicle mount case</comment>
 </data>
 <data name="Def.Obj.Item.Storage.Box.VehicleMountKit.Open.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.DisplayName" xml:space="preserve">
+  <value>infrared strobe</value>
+  <comment>infrared strobe</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Verb.Toggle" xml:space="preserve">
+  <value>switch on</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.On.DisplayName" xml:space="preserve">
+  <value>infrared strobe</value>
+  <comment>infrared strobe</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.On.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.On.Verb.Toggle" xml:space="preserve">
+  <value>switch off</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Empty.DisplayName" xml:space="preserve">
+  <value>infrared strobe</value>
+  <comment>infrared strobe</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Empty.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.DisplayName" xml:space="preserve">
+  <value>box of IV bags</value>
+  <comment>box of IV bags</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.Verb.PickUp" xml:space="preserve">
+  <value>pick up</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.Open.DisplayName" xml:space="preserve">
+  <value>box of IV bags</value>
+  <comment>box of IV bags</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.Open.Verb.PickUp" xml:space="preserve">
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
@@ -78655,6 +79229,38 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Tracking Implant Cavity Removal</value>
   <comment>Tracking Implant Cavity Removal</comment>
 </data>
+<data name="SurgeryOp.ReattachLArm.Display" xml:space="preserve">
+  <value>Reattach Left Arm</value>
+  <comment>Reattach Left Arm</comment>
+</data>
+<data name="SurgeryOp.ReattachRArm.Display" xml:space="preserve">
+  <value>Reattach Right Arm</value>
+  <comment>Reattach Right Arm</comment>
+</data>
+<data name="SurgeryOp.ReattachLHand.Display" xml:space="preserve">
+  <value>Reattach Left Hand</value>
+  <comment>Reattach Left Hand</comment>
+</data>
+<data name="SurgeryOp.ReattachRHand.Display" xml:space="preserve">
+  <value>Reattach Right Hand</value>
+  <comment>Reattach Right Hand</comment>
+</data>
+<data name="SurgeryOp.ReattachLLeg.Display" xml:space="preserve">
+  <value>Reattach Left Leg</value>
+  <comment>Reattach Left Leg</comment>
+</data>
+<data name="SurgeryOp.ReattachRLeg.Display" xml:space="preserve">
+  <value>Reattach Right Leg</value>
+  <comment>Reattach Right Leg</comment>
+</data>
+<data name="SurgeryOp.ReattachLFoot.Display" xml:space="preserve">
+  <value>Reattach Left Foot</value>
+  <comment>Reattach Left Foot</comment>
+</data>
+<data name="SurgeryOp.ReattachRFoot.Display" xml:space="preserve">
+  <value>Reattach Right Foot</value>
+  <comment>Reattach Right Foot</comment>
+</data>
 <data name="Construction.Test.Wire.DisplayName" xml:space="preserve">
   <value>~test wire</value>
   <comment>~test wire</comment>
@@ -78810,6 +79416,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Reagent.CarbonDioxide.Name" xml:space="preserve">
   <value>Carbon Dioxide</value>
   <comment>Carbon Dioxide</comment>
+</data>
+<data name="Reagent.FirefightingFoam.Name" xml:space="preserve">
+  <value>Firefighting Foam</value>
+  <comment>Firefighting Foam</comment>
 </data>
 <data name="Reagent.Blood.ONeg.Name" xml:space="preserve">
   <value>O- Blood</value>
@@ -80303,6 +80913,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>blunts the radiation dose while in the bloodstream</value>
   <comment>blunts the radiation dose while in the bloodstream</comment>
 </data>
+<data name="Reagent.Ketamine.Name" xml:space="preserve">
+  <value>Ketamine</value>
+  <comment>Ketamine</comment>
+</data>
+<data name="Reagent.Ketamine.Advice" xml:space="preserve">
+  <value>blunts suppression under fire; a heavy dose puts the patient under</value>
+  <comment>blunts suppression under fire; a heavy dose puts the patient under</comment>
+</data>
 <data name="Condition.Fracture.DisplayName" xml:space="preserve">
   <value>fracture</value>
   <comment>fracture</comment>
@@ -80742,6 +81360,38 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Condition.Concussion.Cause.Source" xml:space="preserve">
   <value>blasts, head hits</value>
   <comment>blasts, head hits</comment>
+</data>
+<data name="Condition.Suppressed.DisplayName" xml:space="preserve">
+  <value>suppression</value>
+  <comment>suppression</comment>
+</data>
+<data name="Condition.Suppressed.Chip" xml:space="preserve">
+  <value>SUPPRESSED</value>
+  <comment>SUPPRESSED</comment>
+</data>
+<data name="Condition.Suppressed.Brief" xml:space="preserve">
+  <value>rounds passing close wear the nerves down</value>
+  <comment>rounds passing close wear the nerves down</comment>
+</data>
+<data name="Condition.Suppressed.Mend" xml:space="preserve">
+  <value>three levels: unsettled, suppressed, pinned. it fades on its own once the fire stops; a dissociative blunts it</value>
+  <comment>three levels: unsettled, suppressed, pinned. it fades on its own once the fire stops; a dissociative blunts it</comment>
+</data>
+<data name="Condition.Suppressed.Sign.Moodlet" xml:space="preserve">
+  <value>moodlet unsettled, suppressed, or pinned</value>
+  <comment>moodlet unsettled, suppressed, or pinned</comment>
+</data>
+<data name="Condition.Suppressed.Sign.Senses" xml:space="preserve">
+  <value>flinching, the view blurs and greys at the edges</value>
+  <comment>flinching, the view blurs and greys at the edges</comment>
+</data>
+<data name="Condition.Suppressed.Cause.Source" xml:space="preserve">
+  <value>bullets passing through or beside your tile, more from a machine gun</value>
+  <comment>bullets passing through or beside your tile, more from a machine gun</comment>
+</data>
+<data name="Condition.Suppressed.Treatment.Dissociative.How" xml:space="preserve">
+  <value>in the bloodstream, cuts what each passing round adds</value>
+  <comment>in the bloodstream, cuts what each passing round adds</comment>
 </data>
 <data name="Condition.Organ.DisplayName" xml:space="preserve">
   <value>organ damage</value>
