@@ -128,6 +128,9 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="FontSecondary" xml:space="preserve">
   <value>JetBrainsMonoHangul-Regular.ttf</value>
 </data>
+<data name="FontScale" xml:space="preserve">
+  <value>1.15</value>
+</data>
 <data name="Language" xml:space="preserve">
   <value>한국어</value>
 </data>
