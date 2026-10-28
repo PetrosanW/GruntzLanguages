@@ -6752,10 +6752,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>CHEMICAL HEATER</comment>
 </data>
 <data name="ChemHeater.UnitLine" xml:space="preserve">
-  <value>THERMAL EXCHANGE UNIT TX-4 // W-Y CHEMICAL SYSTEMS
-HEATS OR CHILLS A SEATED BEAKER TOWARD THE SET POINT</value>
-  <comment>THERMAL EXCHANGE UNIT TX-4 // W-Y CHEMICAL SYSTEMS
-HEATS OR CHILLS A SEATED BEAKER TOWARD THE SET POINT</comment>
+  <value>THERMAL EXCHANGE UNIT TX-4 // W-Y CHEMICAL SYSTEMS</value>
+  <comment>THERMAL EXCHANGE UNIT TX-4 // W-Y CHEMICAL SYSTEMS</comment>
 </data>
 <data name="ChemHeater.StatusSection" xml:space="preserve">
   <value>STATUS</value>
