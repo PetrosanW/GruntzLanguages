@@ -571,6 +571,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Высокая</value>
   <comment>High</comment>
 </data>
+<data name="Enum.DecalMemory.Ultra" xml:space="preserve">
+  <value>Ультра</value>
+  <comment>Ultra</comment>
+</data>
 <data name="Chat.Ignite" xml:space="preserve">
   <value>{ACTOR} поджигает: {TARGET} ({USED}).</value>
   <comment>{ACTOR} lights the {TARGET} with the {USED}.</comment>
@@ -2047,6 +2051,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>залить топливо</value>
   <comment>pour fuel</comment>
 </data>
+<data name="HoverVerbLabels.PenRename" xml:space="preserve">
+  <value>переименовать</value>
+  <comment>rename</comment>
+</data>
 <data name="ActivateVerbLabels.Wield" xml:space="preserve">
   <value>взять в обе руки</value>
   <comment>wield</comment>
@@ -2759,6 +2767,18 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ОНЕМЕНИЕ</value>
   <comment>NUMBED</comment>
 </data>
+<data name="Moodlet.Title.Unsettled" xml:space="preserve">
+  <value>НЕРВОЗНОСТЬ</value>
+  <comment>UNSETTLED</comment>
+</data>
+<data name="Moodlet.Title.Suppressed" xml:space="preserve">
+  <value>ПОДАВЛЕНИЕ</value>
+  <comment>SUPPRESSED</comment>
+</data>
+<data name="Moodlet.Title.Pinned" xml:space="preserve">
+  <value>ПОД ОГНЁМ</value>
+  <comment>PINNED</comment>
+</data>
 <data name="Moodlet.Title.Fallback" xml:space="preserve">
   <value>~MOODLET</value>
   <comment>~MOODLET</comment>
@@ -3079,6 +3099,18 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Каждый звук бьёт, как молот</value>
   <comment>Every sound is a hammer</comment>
 </data>
+<data name="Moodlet.Flavor.Suppressed.Unsettled" xml:space="preserve">
+  <value>Пули свистят слишком близко</value>
+  <comment>Rounds are cracking past too close</comment>
+</data>
+<data name="Moodlet.Flavor.Suppressed.Suppressed" xml:space="preserve">
+  <value>Голова пригнута, руки дрожат</value>
+  <comment>Head down, hands shaking</comment>
+</data>
+<data name="Moodlet.Flavor.Suppressed.Pinned" xml:space="preserve">
+  <value>Огонь прижал к земле</value>
+  <comment>Pinned flat under the fire</comment>
+</data>
 <data name="Moodlet.Flavor.Narcotic.Woozy" xml:space="preserve">
   <value>Очертания размываются</value>
   <comment>The edges go soft</comment>
@@ -3321,6 +3353,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Hint.Hungover" xml:space="preserve">
   <value>Пройдёт со временем</value>
   <comment>It passes with time</comment>
+</data>
+<data name="Moodlet.Hint.Suppressed" xml:space="preserve">
+  <value>Уйдите с линии огня — и это пройдёт</value>
+  <comment>Break line of fire and it fades</comment>
 </data>
 <data name="Moodlet.Hint.Narcotic" xml:space="preserve">
   <value>Подождите, пока выветрится: вещество в крови</value>
@@ -3665,6 +3701,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Moodlet.Unit.Movement" xml:space="preserve">
   <value> к передвижению</value>
   <comment> Movement</comment>
+</data>
+<data name="Moodlet.Unit.SuppressionTaken" xml:space="preserve">
+  <value> к получаемому подавлению</value>
+  <comment> Suppression taken</comment>
 </data>
 <data name="Moodlet.Unit.Walking" xml:space="preserve">
   <value> к скорости ходьбы</value>
@@ -4204,6 +4244,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ВВЕСТИ</value>
   <comment>INJECT</comment>
 </data>
+<data name="FuelOpenChip.Open" xml:space="preserve">
+  <value>ОТКРЫТО</value>
+  <comment>OPEN</comment>
+</data>
+<data name="FuelOpenChip.Closed" xml:space="preserve">
+  <value>ЗАКРЫТО</value>
+  <comment>CLOSED</comment>
+</data>
 <data name="TrolleyUi.Adjacent" xml:space="preserve">
   <value>РЯДОМ</value>
   <comment>ADJACENT</comment>
@@ -4563,6 +4611,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="TraitChips.Unit.AlcoholEffects" xml:space="preserve">
   <value> к эффектам алкоголя</value>
   <comment> Alcohol effects</comment>
+</data>
+<data name="TraitChips.Unit.SuppressionTaken" xml:space="preserve">
+  <value> к получаемому подавлению</value>
+  <comment> Suppression taken</comment>
 </data>
 <data name="TraitChips.Marker.DeafToken" xml:space="preserve">
   <value>ГЛУХОТА</value>
@@ -8192,6 +8244,26 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ОСТАЛОСЬ: {COUNT}</value>
   <comment>{COUNT} LEFT</comment>
 </data>
+<data name="RenamePopup.Title" xml:space="preserve">
+  <value>ПЕРЕИМЕНОВАТЬ</value>
+  <comment>RENAME</comment>
+</data>
+<data name="RenamePopup.Hint" xml:space="preserve">
+  <value>НАЗВАНИЕ</value>
+  <comment>NAME</comment>
+</data>
+<data name="RenamePopup.CancelLabel" xml:space="preserve">
+  <value>ОТМЕНА</value>
+  <comment>CANCEL</comment>
+</data>
+<data name="RenamePopup.ConfirmLabel" xml:space="preserve">
+  <value>ПОДТВЕРДИТЬ</value>
+  <comment>CONFIRM</comment>
+</data>
+<data name="RenamePopup.CharsLeftLine" xml:space="preserve">
+  <value>ОСТАЛОСЬ: {COUNT}</value>
+  <comment>{COUNT} LEFT</comment>
+</data>
 <data name="TalkPopup.Local" xml:space="preserve">
   <value>Рядом</value>
   <comment>Local</comment>
@@ -8952,10 +9024,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Вход в мир</value>
   <comment>Entering world</comment>
 </data>
-<data name="Loading.StateSoundDecode" xml:space="preserve">
-  <value>Декодирование звука</value>
-  <comment>Sound decode</comment>
-</data>
 <data name="Loading.StateReadingDefs" xml:space="preserve">
   <value>Чтение определений</value>
   <comment>Reading defs</comment>
@@ -9180,6 +9248,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ОПЕРАЦИЯ</value>
   <comment>SURGERY</comment>
 </data>
+<data name="Codex.Kind.Effect" xml:space="preserve">
+  <value>ЭФФЕКТ</value>
+  <comment>EFFECT</comment>
+</data>
 <data name="Codex.Makes" xml:space="preserve">
   <value>ПОЛУЧАЕТСЯ</value>
   <comment>MAKES</comment>
@@ -9231,6 +9303,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Sect.Treats" xml:space="preserve">
   <value>ЛЕЧИТ</value>
   <comment>TREATS</comment>
+</data>
+<data name="Codex.Sect.Carriers" xml:space="preserve">
+  <value>НОСИТЕЛИ</value>
+  <comment>CARRIERS</comment>
 </data>
 <data name="Codex.Sect.SoldIn" xml:space="preserve">
   <value>ПРОДАЁТСЯ В</value>
@@ -9331,6 +9407,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Col.Strength" xml:space="preserve">
   <value>СИЛА</value>
   <comment>STRENGTH</comment>
+</data>
+<data name="Codex.Col.Overdose" xml:space="preserve">
+  <value>ПЕРЕДОЗ</value>
+  <comment>OVERDOSE</comment>
 </data>
 <data name="Codex.Col.Use" xml:space="preserve">
   <value>ПРИМЕНЕНИЕ</value>
@@ -9628,6 +9708,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>СКОРОСТЬ</value>
   <comment>RATE</comment>
 </data>
+<data name="Codex.Row.Duration" xml:space="preserve">
+  <value>ДЛИТЕЛЬНОСТЬ</value>
+  <comment>DURATION</comment>
+</data>
 <data name="Codex.Row.Works" xml:space="preserve">
   <value>ДЕЙСТВУЕТ</value>
   <comment>WORKS</comment>
@@ -9661,8 +9745,12 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>NONE. INERT IN A BODY.</comment>
 </data>
 <data name="Codex.RateLine" xml:space="preserve">
-  <value>{RATE} ЕД./{SECONDS} С // 10 ЕД. НА {DURATION}</value>
-  <comment>{RATE}U EVERY {SECONDS}S // 10U LASTS {DURATION}</comment>
+  <value>{RATE} ЕД./{SECONDS} С</value>
+  <comment>{RATE}U EVERY {SECONDS}S</comment>
+</data>
+<data name="Codex.DurationLine" xml:space="preserve">
+  <value>10 ЕД. НА {DURATION}</value>
+  <comment>10U LASTS {DURATION}</comment>
 </data>
 <data name="Codex.Col.Mechanism" xml:space="preserve">
   <value>СПОСОБ</value>
@@ -10115,6 +10203,134 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Codex.Property.Intravenous" xml:space="preserve">
   <value>ТОЛЬКО ИНЪЕКЦИИ</value>
   <comment>INJECTION ONLY</comment>
+</data>
+<data name="Codex.Property.Dissociative" xml:space="preserve">
+  <value>ГАСИТ ПОДАВЛЕНИЕ</value>
+  <comment>DISSOCIATES</comment>
+</data>
+<data name="Codex.Property.Rule.Neogenetic" xml:space="preserve">
+  <value>Каждый цикл метаболизма лечит травмы на всех конечностях, по силе.</value>
+  <comment>Mends brute damage on every limb each metabolism cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Anticorrosive" xml:space="preserve">
+  <value>Каждый цикл лечит ожоги на всех конечностях, по силе.</value>
+  <comment>Mends burn damage on every limb each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Antitoxic" xml:space="preserve">
+  <value>Каждый цикл выводит токсины из организма, по силе.</value>
+  <comment>Clears toxin from the body each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Oxygenating" xml:space="preserve">
+  <value>Каждый цикл восстанавливает кислород в крови, по силе.</value>
+  <comment>Restores blood oxygen each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Cardiostabilizing" xml:space="preserve">
+  <value>Удерживает сердце пациента в критическом состоянии; передозировка оглушает.</value>
+  <comment>Holds a critical patient's heart; an overdose stuns.</comment>
+</data>
+<data name="Codex.Property.Rule.Painkilling" xml:space="preserve">
+  <value>Каждый цикл снижает ощущаемую боль по силе; передозировка отравляет.</value>
+  <comment>Lowers felt pain by strength each cycle; an overdose poisons.</comment>
+</data>
+<data name="Codex.Property.Rule.Organstabilize" xml:space="preserve">
+  <value>Пока в крови, ушибленные органы ведут себя тихо: не сбоят, но и не заживают.</value>
+  <comment>Keeps bruised organs quiet while in the blood; they do not act up and do not mend.</comment>
+</data>
+<data name="Codex.Property.Rule.Antihallucinogenic" xml:space="preserve">
+  <value>Отмечает антигаллюциноген. В организме это пока ни на что не влияет.</value>
+  <comment>Marks an antihallucinogen. Nothing in a body reads it yet.</comment>
+</data>
+<data name="Codex.Property.Rule.Thermostabilizing" xml:space="preserve">
+  <value>Отмечает стабилизатор температуры. В организме это пока ни на что не влияет.</value>
+  <comment>Marks a temperature stabiliser. Nothing in a body reads it yet.</comment>
+</data>
+<data name="Codex.Property.Rule.Explosive" xml:space="preserve">
+  <value>Отмечает взрывчатое соединение. Сам взрыв даёт реакция, в которой оно образуется.</value>
+  <comment>Marks an explosive compound. The bang itself belongs to the reaction that makes it.</comment>
+</data>
+<data name="Codex.Property.Rule.Fueling" xml:space="preserve">
+  <value>Горит как топливо в сварочном аппарате или баке огнемёта.</value>
+  <comment>Burns as fuel in a welder or a flamer tank.</comment>
+</data>
+<data name="Codex.Property.Rule.Oxidizing" xml:space="preserve">
+  <value>Отмечает окислитель. Ни в организме, ни на полу это пока ни на что не влияет.</value>
+  <comment>Marks an oxidiser. Nothing in a body or on a floor reads it yet.</comment>
+</data>
+<data name="Codex.Property.Rule.Neuropeutic" xml:space="preserve">
+  <value>Каждый цикл лечит мозг, по силе.</value>
+  <comment>Mends the brain each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Oculopeutic" xml:space="preserve">
+  <value>Каждый цикл лечит глаза, по силе.</value>
+  <comment>Mends the eyes each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Hemostatic" xml:space="preserve">
+  <value>Пока в крови, останавливает наружное кровотечение и замедляет внутреннее.</value>
+  <comment>Halts external bleeding and slows internal bleeding while in the blood.</comment>
+</data>
+<data name="Codex.Property.Rule.Bonemending" xml:space="preserve">
+  <value>Каждый цикл сращивает перелом, в шине быстрее.</value>
+  <comment>Knits a fracture each cycle, faster under a splint.</comment>
+</data>
+<data name="Codex.Property.Rule.Toxic" xml:space="preserve">
+  <value>Каждый цикл наносит урон токсинами, по силе.</value>
+  <comment>Deals toxin damage each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Corrosive" xml:space="preserve">
+  <value>Каждый цикл жжёт изнутри, по силе.</value>
+  <comment>Burns from the inside each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Hypoxemic" xml:space="preserve">
+  <value>Каждый цикл лишает кровь кислорода, по силе.</value>
+  <comment>Starves the blood of oxygen each cycle, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Nutritious" xml:space="preserve">
+  <value>Питает организм по мере переваривания.</value>
+  <comment>Feeds the body as it is digested.</comment>
+</data>
+<data name="Codex.Property.Rule.Hydrating" xml:space="preserve">
+  <value>Утоляет жажду по мере переваривания.</value>
+  <comment>Hydrates the body as it is digested.</comment>
+</data>
+<data name="Codex.Property.Rule.Veinmending" xml:space="preserve">
+  <value>Со временем лечит внутренние кровотечения, по силе.</value>
+  <comment>Cures internal bleeding over time, by strength.</comment>
+</data>
+<data name="Codex.Property.Rule.Stimulant" xml:space="preserve">
+  <value>Пока в крови есть хоть сколько-то, ускоряет движение на силу в процентах; действует самый сильный носитель.</value>
+  <comment>Quickens movement by its strength in percent while any is in the blood; the strongest carrier applies.</comment>
+</data>
+<data name="Codex.Property.Rule.Sedative" xml:space="preserve">
+  <value>Усыпляет, когда доза в крови достигает силы, считая её в единицах.</value>
+  <comment>Knocks the host out once the dose in the blood reaches the strength, read as units.</comment>
+</data>
+<data name="Codex.Property.Rule.Antiradiation" xml:space="preserve">
+  <value>Пока в крови, снижает получаемую дозу радиации.</value>
+  <comment>Blunts the radiation dose taken while in the blood.</comment>
+</data>
+<data name="Codex.Property.Rule.Alcoholic" xml:space="preserve">
+  <value>Повышает алкоголь в крови за каждую выведенную единицу, по силе; опьянение притупляет боль.</value>
+  <comment>Raises blood alcohol per unit burned, by strength; drunkenness dulls pain.</comment>
+</data>
+<data name="Codex.Property.Rule.Focusing" xml:space="preserve">
+  <value>Каждый цикл выводит алкоголь из крови, по силе; передозировка отравляет.</value>
+  <comment>Strips alcohol from the blood each cycle, by strength; an overdose poisons.</comment>
+</data>
+<data name="Codex.Property.Rule.Narcotic" xml:space="preserve">
+  <value>Затуманивает рассудок по дозе в крови в пересчёте на оксикодон: онемение, дурнота, дурман, затем передозировка.</value>
+  <comment>Clouds the mind by the Oxycodone-equivalent dose in the blood: numbed, woozy, doped, then overdosed.</comment>
+</data>
+<data name="Codex.Property.Rule.Cryometabolizing" xml:space="preserve">
+  <value>Действует только в работающей криокамере, где все остальные эффекты усиливаются.</value>
+  <comment>Works only inside an operating cryo cell, where every other effect is boosted.</comment>
+</data>
+<data name="Codex.Property.Rule.Intravenous" xml:space="preserve">
+  <value>Действует только при инъекции; проглоченное теряется.</value>
+  <comment>Works only when injected; swallowed, it is lost.</comment>
+</data>
+<data name="Codex.Property.Rule.Dissociative" xml:space="preserve">
+  <value>Снижает подавление от каждой пролетающей пули на силу в процентах; носители перемножаются, так что два препарата снижают сильнее одного.</value>
+  <comment>Cuts the suppression a passing round charges by its strength in percent; carriers multiply, so two drugs cut deeper than one.</comment>
 </data>
 <data name="Codex.Surgery.Stats" xml:space="preserve">
   <value>ПАРАМЕТРЫ</value>
@@ -14553,6 +14769,38 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Ossein Extract bottle</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Glass.Bottle.OsseinExtract.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.DisplayName" xml:space="preserve">
+  <value>автоинъектор коагулекса</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Spent.DisplayName" xml:space="preserve">
+  <value>автоинъектор коагулекса</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Spent.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses1.DisplayName" xml:space="preserve">
+  <value>автоинъектор коагулекса</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses1.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses2.DisplayName" xml:space="preserve">
+  <value>автоинъектор коагулекса</value>
+  <comment>Coagulex autoinjector</comment>
+</data>
+<data name="Def.Obj.Item.ReagentContainer.Hypospray.Autoinjector.Coagulex.Uses2.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
@@ -49316,7 +49564,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Verb.Toggle" xml:space="preserve">
+  <value>открыть</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Verb.Toggle.State" xml:space="preserve">
+  <value>закрыта</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Family" xml:space="preserve">
+  <value>топливные баки</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.DisplayName" xml:space="preserve">
+  <value>канистра</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Verb.Toggle" xml:space="preserve">
+  <value>закрыть</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>открыта</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Open.Family" xml:space="preserve">
   <value>топливные баки</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49328,7 +49604,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Verb.Toggle" xml:space="preserve">
+  <value>открыть</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Verb.Toggle.State" xml:space="preserve">
+  <value>закрыта</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.High.Family" xml:space="preserve">
+  <value>топливные баки</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.DisplayName" xml:space="preserve">
+  <value>канистра</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Verb.Toggle" xml:space="preserve">
+  <value>закрыть</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>открыта</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.High.Open.Family" xml:space="preserve">
   <value>топливные баки</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49340,7 +49644,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Verb.Toggle" xml:space="preserve">
+  <value>открыть</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Verb.Toggle.State" xml:space="preserve">
+  <value>закрыта</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Family" xml:space="preserve">
+  <value>топливные баки</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.DisplayName" xml:space="preserve">
+  <value>канистра</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Verb.Toggle" xml:space="preserve">
+  <value>закрыть</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>открыта</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Medium.Open.Family" xml:space="preserve">
   <value>топливные баки</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49352,7 +49684,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Verb.Toggle" xml:space="preserve">
+  <value>открыть</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Verb.Toggle.State" xml:space="preserve">
+  <value>закрыта</value>
+  <comment>closed</comment>
+</data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Low.Family" xml:space="preserve">
+  <value>топливные баки</value>
+  <comment>fuel tanks</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.DisplayName" xml:space="preserve">
+  <value>канистра</value>
+  <comment>fuel can</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Verb.Toggle" xml:space="preserve">
+  <value>закрыть</value>
+  <comment>close</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Verb.Toggle.State" xml:space="preserve">
+  <value>открыта</value>
+  <comment>open</comment>
+</data>
+<data name="Def.Obj.Item.Prop.Colony.Canister.Low.Open.Family" xml:space="preserve">
   <value>топливные баки</value>
   <comment>fuel tanks</comment>
 </data>
@@ -49365,30 +49725,6 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.Prop.Colony.Canister.Empty.Family" xml:space="preserve">
-  <value>топливные баки</value>
-  <comment>fuel tanks</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt1.DisplayName" xml:space="preserve">
-  <value>канистра</value>
-  <comment>fuel can</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt1.Verb.PickUp" xml:space="preserve">
-  <value>подобрать</value>
-  <comment>pick up</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt1.Family" xml:space="preserve">
-  <value>топливные баки</value>
-  <comment>fuel tanks</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt2.DisplayName" xml:space="preserve">
-  <value>канистра</value>
-  <comment>fuel can</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt2.Verb.PickUp" xml:space="preserve">
-  <value>подобрать</value>
-  <comment>pick up</comment>
-</data>
-<data name="Def.Obj.Item.Prop.Colony.Canister.Alt2.Family" xml:space="preserve">
   <value>топливные баки</value>
   <comment>fuel tanks</comment>
 </data>
@@ -50121,7 +50457,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Boda.DisplayName" xml:space="preserve">
-  <value>Boda</value>
+  <value>Бода</value>
   <comment>Boda</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Boda.Verb.PickUp" xml:space="preserve">
@@ -50129,7 +50465,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Boda.Open.DisplayName" xml:space="preserve">
-  <value>Boda</value>
+  <value>Бода</value>
   <comment>Boda</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Boda.Open.Verb.PickUp" xml:space="preserve">
@@ -50137,7 +50473,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Bodaplus.DisplayName" xml:space="preserve">
-  <value>Boda-Plyus</value>
+  <value>Бода-Плюс</value>
   <comment>Boda-Plyus</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Bodaplus.Verb.PickUp" xml:space="preserve">
@@ -50145,7 +50481,7 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>pick up</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Bodaplus.Open.DisplayName" xml:space="preserve">
-  <value>Boda-Plyus</value>
+  <value>Бода-Плюс</value>
   <comment>Boda-Plyus</comment>
 </data>
 <data name="Def.Obj.Item.ReagentContainer.Food.Drinks.Cans.Bodaplus.Open.Verb.PickUp" xml:space="preserve">
@@ -66088,14 +66424,6 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.DisplayName" xml:space="preserve">
-  <value>помповый дробовик HG 37-12</value>
-  <comment>HG 37-12 pump shotgun</comment>
-</data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.Verb.PickUp" xml:space="preserve">
-  <value>подобрать</value>
-  <comment>pick up</comment>
-</data>
 <data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.M3717.DisplayName" xml:space="preserve">
   <value>помповый дробовик M37-17</value>
   <comment>M37-17 pump shotgun</comment>
@@ -66109,14 +66437,6 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>M37-17 pump shotgun</comment>
 </data>
 <data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.M3717.Harness.Verb.PickUp" xml:space="preserve">
-  <value>подобрать</value>
-  <comment>pick up</comment>
-</data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.Swat.DisplayName" xml:space="preserve">
-  <value>помповый дробовик HG 37-12</value>
-  <comment>HG 37-12 pump shotgun</comment>
-</data>
-<data name="Def.Obj.Item.Weapon.Gun.Shotgun.Pump.DualTube.Cmb.Swat.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
@@ -77700,6 +78020,54 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.DisplayName" xml:space="preserve">
+  <value>ИК-стробоскоп</value>
+  <comment>infrared strobe</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Verb.Toggle" xml:space="preserve">
+  <value>включить</value>
+  <comment>switch on</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.On.DisplayName" xml:space="preserve">
+  <value>ИК-стробоскоп</value>
+  <comment>infrared strobe</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.On.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.On.Verb.Toggle" xml:space="preserve">
+  <value>выключить</value>
+  <comment>switch off</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Empty.DisplayName" xml:space="preserve">
+  <value>ИК-стробоскоп</value>
+  <comment>infrared strobe</comment>
+</data>
+<data name="Def.Obj.Item.Device.InfraredStrobe.Empty.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.DisplayName" xml:space="preserve">
+  <value>коробка пакетов для капельницы</value>
+  <comment>box of IV bags</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.Open.DisplayName" xml:space="preserve">
+  <value>коробка пакетов для капельницы</value>
+  <comment>box of IV bags</comment>
+</data>
+<data name="Def.Obj.Item.Storage.Box.IVBag.Open.Verb.PickUp" xml:space="preserve">
+  <value>подобрать</value>
+  <comment>pick up</comment>
+</data>
 <data name="StackFamily.TestPlank" xml:space="preserve">
   <value>тестовые доски</value>
   <comment>TestPlank</comment>
@@ -78643,6 +79011,38 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="SurgeryOp.ImplantRemovalCavity.Display" xml:space="preserve">
   <value>Извлечение импланта из полости</value>
   <comment>Tracking Implant Cavity Removal</comment>
+</data>
+<data name="SurgeryOp.ReattachLArm.Display" xml:space="preserve">
+  <value>Пришивание (левая рука)</value>
+  <comment>Reattach Left Arm</comment>
+</data>
+<data name="SurgeryOp.ReattachRArm.Display" xml:space="preserve">
+  <value>Пришивание (правая рука)</value>
+  <comment>Reattach Right Arm</comment>
+</data>
+<data name="SurgeryOp.ReattachLHand.Display" xml:space="preserve">
+  <value>Пришивание (левая кисть)</value>
+  <comment>Reattach Left Hand</comment>
+</data>
+<data name="SurgeryOp.ReattachRHand.Display" xml:space="preserve">
+  <value>Пришивание (правая кисть)</value>
+  <comment>Reattach Right Hand</comment>
+</data>
+<data name="SurgeryOp.ReattachLLeg.Display" xml:space="preserve">
+  <value>Пришивание (левая нога)</value>
+  <comment>Reattach Left Leg</comment>
+</data>
+<data name="SurgeryOp.ReattachRLeg.Display" xml:space="preserve">
+  <value>Пришивание (правая нога)</value>
+  <comment>Reattach Right Leg</comment>
+</data>
+<data name="SurgeryOp.ReattachLFoot.Display" xml:space="preserve">
+  <value>Пришивание (левая стопа)</value>
+  <comment>Reattach Left Foot</comment>
+</data>
+<data name="SurgeryOp.ReattachRFoot.Display" xml:space="preserve">
+  <value>Пришивание (правая стопа)</value>
+  <comment>Reattach Right Foot</comment>
 </data>
 <data name="Construction.Test.Wire.DisplayName" xml:space="preserve">
   <value>~тест провод</value>
@@ -80292,6 +80692,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ослабляет действие радиации, пока находится в кровотоке</value>
   <comment>blunts the radiation dose while in the bloodstream</comment>
 </data>
+<data name="Reagent.Ketamine.Name" xml:space="preserve">
+  <value>Кетамин</value>
+  <comment>Ketamine</comment>
+</data>
+<data name="Reagent.Ketamine.Advice" xml:space="preserve">
+  <value>ослабляет подавление под огнём; большая доза усыпляет пациента</value>
+  <comment>blunts suppression under fire; a heavy dose puts the patient under</comment>
+</data>
 <data name="Condition.Fracture.DisplayName" xml:space="preserve">
   <value>перелом</value>
   <comment>fracture</comment>
@@ -80731,6 +81139,38 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Condition.Concussion.Cause.Source" xml:space="preserve">
   <value>взрывы, удары по голове</value>
   <comment>blasts, head hits</comment>
+</data>
+<data name="Condition.Suppressed.DisplayName" xml:space="preserve">
+  <value>подавление</value>
+  <comment>suppression</comment>
+</data>
+<data name="Condition.Suppressed.Chip" xml:space="preserve">
+  <value>ПОДАВЛЕНИЕ</value>
+  <comment>SUPPRESSED</comment>
+</data>
+<data name="Condition.Suppressed.Brief" xml:space="preserve">
+  <value>пули, пролетающие рядом, расшатывают нервы</value>
+  <comment>rounds passing close wear the nerves down</comment>
+</data>
+<data name="Condition.Suppressed.Mend" xml:space="preserve">
+  <value>три уровня: нервозность, подавление, под огнём. проходит само, когда стрельба стихает; диссоциатив ослабляет</value>
+  <comment>three levels: unsettled, suppressed, pinned. it fades on its own once the fire stops; a dissociative blunts it</comment>
+</data>
+<data name="Condition.Suppressed.Sign.Moodlet" xml:space="preserve">
+  <value>состояние: нервозность, подавление или под огнём</value>
+  <comment>moodlet unsettled, suppressed, or pinned</comment>
+</data>
+<data name="Condition.Suppressed.Sign.Senses" xml:space="preserve">
+  <value>вздрагивания, края обзора размываются и сереют</value>
+  <comment>flinching, the view blurs and greys at the edges</comment>
+</data>
+<data name="Condition.Suppressed.Cause.Source" xml:space="preserve">
+  <value>пули, пролетающие через вашу клетку или рядом, особенно пулемётные</value>
+  <comment>bullets passing through or beside your tile, more from a machine gun</comment>
+</data>
+<data name="Condition.Suppressed.Treatment.Dissociative.How" xml:space="preserve">
+  <value>в крови, урезает то, что добавляет каждая пролетающая пуля</value>
+  <comment>in the bloodstream, cuts what each passing round adds</comment>
 </data>
 <data name="Condition.Organ.DisplayName" xml:space="preserve">
   <value>повреждение органов</value>
