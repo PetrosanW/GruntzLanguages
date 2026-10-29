@@ -12272,8 +12272,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>NEW PLAYER</comment>
 </data>
 <data name="NewPlayer.Flavor" xml:space="preserve">
-  <value>First hours in the field. Give them room, show them the ropes.</value>
-  <comment>First hours in the field. Give them room, show them the ropes.</comment>
+  <value>Help new players get started.</value>
+  <comment>Help new players get started.</comment>
 </data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
@@ -15198,6 +15198,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Obj.Structure.Fence.Slim.Upp.Door.Broken.DisplayName" xml:space="preserve">
   <value>fence door</value>
   <comment>fence door</comment>
+</data>
+<data name="Def.Obj.Effect.Decal.Hybrisa.Floorprops.Grate2.DisplayName" xml:space="preserve">
+  <value>solid metal grate</value>
+  <comment>solid metal grate</comment>
 </data>
 <data name="Def.debug_light.DisplayName" xml:space="preserve">
   <value>debug light</value>
@@ -81710,6 +81714,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Loadout.Marine.Guard.Medic.Name" xml:space="preserve">
   <value>~corpsman guard</value>
   <comment>~corpsman guard</comment>
+</data>
+<data name="Loadout.Marine.Guard.Rifleman.Name" xml:space="preserve">
+  <value>~rifleman guard</value>
+  <comment>~rifleman guard</comment>
+</data>
+<data name="Loadout.Marine.Guard.Marksman.Name" xml:space="preserve">
+  <value>~marksman guard</value>
+  <comment>~marksman guard</comment>
 </data>
 <data name="Loadout.Marine.Rifleman.Name" xml:space="preserve">
   <value>Rifleman</value>
