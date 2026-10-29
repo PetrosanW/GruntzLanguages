@@ -4,7 +4,8 @@ The contents of the braces themselves needs to be preserved, but they may freely
 The comment field includes the default english string at the time of file generation so is useful for determining when a string has changed.
 The filename is used for the locale Code according to ISO 639-1. By default the language name is taken from this. To override this, enter an entry for 'Language'.
 The 'FontMain' and 'FontSecondary' values are special entries naming a font file (.ttf) that replaces the game's pixel font (FontMain) or its text font (FontSecondary) while this language is active, for scripts the defaults do not cover.
-The file is looked up beside this language file first, then under the game's Content/Fonts. Leave both empty to keep the game's fonts.--><root>
+The file is looked up beside this language file first, then under the game's Content/Fonts. Leave both empty to keep the game's fonts.
+'FontScale' multiplies the interface scale while this language is active, for scripts whose glyphs need more room (1.15 draws everything 15% larger). Leave it empty for 1.--><root>
   <!-- 
   Microsoft ResX Schema 
 
@@ -126,6 +127,9 @@ The file is looked up beside this language file first, then under the game's Con
   <value></value>
 </data>
 <data name="FontSecondary" xml:space="preserve">
+  <value></value>
+</data>
+<data name="FontScale" xml:space="preserve">
   <value></value>
 </data>
 <data name="Language" xml:space="preserve">
@@ -10127,6 +10131,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>REAGENTS</value>
   <comment>REAGENTS</comment>
 </data>
+<data name="Codex.Section.Chemistry.Effects" xml:space="preserve">
+  <value>EFFECTS</value>
+  <comment>EFFECTS</comment>
+</data>
 <data name="Codex.Section.Chemistry.Glassware" xml:space="preserve">
   <value>GLASSWARE</value>
   <comment>GLASSWARE</comment>
@@ -12258,6 +12266,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="VehicleConsole.AltitudeFeetLine" xml:space="preserve">
   <value>{FEET} FT</value>
   <comment>{FEET} FT</comment>
+</data>
+<data name="NewPlayer.Title" xml:space="preserve">
+  <value>NEW PLAYER</value>
+  <comment>NEW PLAYER</comment>
+</data>
+<data name="NewPlayer.Flavor" xml:space="preserve">
+  <value>First hours in the field. Give them room, show them the ropes.</value>
+  <comment>First hours in the field. Give them room, show them the ropes.</comment>
 </data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
@@ -80916,8 +80932,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Ketamine</comment>
 </data>
 <data name="Reagent.Ketamine.Advice" xml:space="preserve">
-  <value>blunts suppression under fire; a heavy dose puts the patient under</value>
-  <comment>blunts suppression under fire; a heavy dose puts the patient under</comment>
+  <value>blunts suppression under fire and quickens the step; a heavy dose puts the patient under</value>
+  <comment>blunts suppression under fire and quickens the step; a heavy dose puts the patient under</comment>
 </data>
 <data name="Condition.Fracture.DisplayName" xml:space="preserve">
   <value>fracture</value>
@@ -81566,6 +81582,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Guide.Section.Chemistry.Reagents" xml:space="preserve">
   <value>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</value>
   <comment>each reagent has one job in a body: what it treats, its overdose line, and how fast it metabolises</comment>
+</data>
+<data name="Guide.Section.Chemistry.Effects" xml:space="preserve">
+  <value>what a reagent does once it is in a body: one page per effect, listing every reagent that carries it and the chip it lights</value>
+  <comment>what a reagent does once it is in a body: one page per effect, listing every reagent that carries it and the chip it lights</comment>
 </data>
 <data name="Guide.Section.Chemistry.Glassware" xml:space="preserve">
   <value>beakers, bottles, pills and injectors hold and carry reagents; a reaction only fires in open glassware</value>
