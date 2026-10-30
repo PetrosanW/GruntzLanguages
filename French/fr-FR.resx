@@ -796,16 +796,16 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Defibrillation failed. Vital signs are too weak: repair the damage and try again.</comment>
 </data>
 <data name="Chat.Cpr" xml:space="preserve">
-  <value>{ACTOR} performs a chest compression.</value>
-  <comment>{ACTOR} performs a chest compression.</comment>
+  <value>Chest compression successful</value>
+  <comment>Chest compression successful</comment>
 </data>
 <data name="Chat.CprTooFast" xml:space="preserve">
-  <value>{ACTOR} fails a chest compression: too fast.</value>
-  <comment>{ACTOR} fails a chest compression: too fast.</comment>
+  <value>Chest compression failed: too fast</value>
+  <comment>Chest compression failed: too fast</comment>
 </data>
 <data name="Chat.CprTooFarGone" xml:space="preserve">
-  <value>{ACTOR} fails a chest compression: too far gone.</value>
-  <comment>{ACTOR} fails a chest compression: too far gone.</comment>
+  <value>Chest compression failed: too far gone</value>
+  <comment>Chest compression failed: too far gone</comment>
 </data>
 <data name="Chat.SuturePass" xml:space="preserve">
   <value>{ACTOR} sutures some of the wounds.</value>
