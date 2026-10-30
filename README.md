@@ -32,7 +32,7 @@ Three kinds of entry are reserved and are not strings:
 
 - `Language` is the name shown in the language picker. The standard for this repository is the language's own name for itself, in its own script, with no country: `Deutsch`, `Français`, `Русский`, `Español`. When the entry is empty the game falls back to the .NET culture name for the locale code, such as `German (Germany)`, which is not what we want shipped, so always set it.
 - `FontMain` and `FontSecondary` name font files. Leave both empty to keep the game's own fonts. See the next section.
-- `FontScale` multiplies the game's interface scale while the language is active, for scripts whose glyphs need more room than the Latin faces: `1.15` draws text and the panels around it 15% larger. Empty means 1. The game accepts values from 0.5 to 3 and treats anything else as 1.
+- `FontScale` multiplies the game's interface scale while the language is active, for scripts whose glyphs need more room than the Latin faces: `1.3` draws text and the panels around it 30% larger. Empty means 1. The game accepts values from 0.5 to 3 and treats anything else as 1.
 
 Any text editor works. A resx editor works too, as long as it writes plain resx and keeps the `name` values.
 
@@ -58,7 +58,7 @@ A language whose script the shipped faces do not cover names its own font files 
 - A font file committed here goes in the language's folder beside its resx and must be under a licence that allows redistribution with the game. State the licence in the pull request. The shipped faces are under the SIL Open Font License.
 - A pixel face for `FontMain` should sit on the same 8 pixel grid as PressStart2P, or the HUD text will not align to the pixel grid the game snaps sizes to.
 - Every language's fonts are also merged behind the game's own faces as glyph fallbacks, so a language's name renders in the picker whatever language is active, provided the font files sit beside the resx.
-- If the script reads small at the game's sizes, set `FontScale` (see the reserved entries above) rather than editing the font. Korean ships `1.15`.
+- If the script reads small at the game's sizes, set `FontScale` (see the reserved entries above) rather than editing the font. Korean ships `1.3`.
 
 ## How the game finds language files
 
