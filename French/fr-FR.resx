@@ -796,8 +796,16 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>Defibrillation failed. Vital signs are too weak: repair the damage and try again.</comment>
 </data>
 <data name="Chat.Cpr" xml:space="preserve">
-  <value>{ACTOR} performs CPR on the {TARGET}.</value>
-  <comment>{ACTOR} performs CPR on the {TARGET}.</comment>
+  <value>{ACTOR} performs a chest compression.</value>
+  <comment>{ACTOR} performs a chest compression.</comment>
+</data>
+<data name="Chat.CprTooFast" xml:space="preserve">
+  <value>{ACTOR} fails a chest compression: too fast.</value>
+  <comment>{ACTOR} fails a chest compression: too fast.</comment>
+</data>
+<data name="Chat.CprTooFarGone" xml:space="preserve">
+  <value>{ACTOR} fails a chest compression: too far gone.</value>
+  <comment>{ACTOR} fails a chest compression: too far gone.</comment>
 </data>
 <data name="Chat.SuturePass" xml:space="preserve">
   <value>{ACTOR} sutures some of the wounds.</value>
@@ -4598,6 +4606,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="TraitChips.Unit.DefibTime" xml:space="preserve">
   <value> Defib time</value>
   <comment> Defib time</comment>
+</data>
+<data name="TraitChips.Unit.CprGain" xml:space="preserve">
+  <value> Revive time per compression</value>
+  <comment> Revive time per compression</comment>
+</data>
+<data name="TraitChips.Unit.CprTime" xml:space="preserve">
+  <value> CPR time</value>
+  <comment> CPR time</comment>
 </data>
 <data name="TraitChips.Unit.MovementSpeedWhileWet" xml:space="preserve">
   <value> Movement speed while wet</value>
@@ -8551,9 +8567,17 @@ The file is looked up beside this language file first, then under the game's Con
   <value>RETURN</value>
   <comment>RETURN</comment>
 </data>
+<data name="DeadOverlay.VisionGhostLabel" xml:space="preserve">
+  <value>GHOST</value>
+  <comment>GHOST</comment>
+</data>
 <data name="DeadOverlay.ObserveLabel" xml:space="preserve">
   <value>OBSERVE</value>
   <comment>OBSERVE</comment>
+</data>
+<data name="DeadOverlay.VisionNvgLabel" xml:space="preserve">
+  <value>NVG</value>
+  <comment>NVG</comment>
 </data>
 <data name="DeadOverlay.PrevLabel" xml:space="preserve">
   <value>&lt; PREV</value>
@@ -8583,9 +8607,9 @@ The file is looked up beside this language file first, then under the game's Con
   <value>You can still be revived while released.</value>
   <comment>You can still be revived while released.</comment>
 </data>
-<data name="DeadOverlay.ObserveEnabledTip" xml:space="preserve">
-  <value>Lift the ghost screen effect to watch clearly.</value>
-  <comment>Lift the ghost screen effect to watch clearly.</comment>
+<data name="DeadOverlay.VisionTip" xml:space="preserve">
+  <value>Cycle the view: GHOST, OBSERVE without the ghost effect, or NVG night vision.</value>
+  <comment>Cycle the view: GHOST, OBSERVE without the ghost effect, or NVG night vision.</comment>
 </data>
 <data name="DeadOverlay.ObserveLockedTip" xml:space="preserve">
   <value>Available once you can no longer be revived.</value>
@@ -8828,28 +8852,28 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>ROUND COMPLETE</comment>
 </data>
 <data name="EorScreen.ColonyLostLine" xml:space="preserve">
-  <value>NO OPERATORS EXTRACTED // THE COLONY IS LOST</value>
-  <comment>NO OPERATORS EXTRACTED // THE COLONY IS LOST</comment>
+  <value>NO OPERATORS EXTRACTED</value>
+  <comment>NO OPERATORS EXTRACTED</comment>
 </data>
 <data name="EorScreen.AnomalyOverrunLine" xml:space="preserve">
-  <value>THE ANOMALY OVERRAN THE COLONY // SURVIVORS EXTRACTED</value>
-  <comment>THE ANOMALY OVERRAN THE COLONY // SURVIVORS EXTRACTED</comment>
+  <value>COLONY OVERRUN // SURVIVORS EXTRACTED</value>
+  <comment>COLONY OVERRUN // SURVIVORS EXTRACTED</comment>
 </data>
 <data name="EorScreen.OperativesLostLine" xml:space="preserve">
   <value>ALL OPERATIVES LOST</value>
   <comment>ALL OPERATIVES LOST</comment>
 </data>
 <data name="EorScreen.AnomalyContainedLine" xml:space="preserve">
-  <value>THE ANOMALY WAS CONTAINED // COLONY SECURED</value>
-  <comment>THE ANOMALY WAS CONTAINED // COLONY SECURED</comment>
+  <value>ANOMALY CONTAINED // COLONY SECURED</value>
+  <comment>ANOMALY CONTAINED // COLONY SECURED</comment>
 </data>
 <data name="EorScreen.AnomalyContainedNoExtractionLine" xml:space="preserve">
-  <value>THE ANOMALY WAS CONTAINED // NOBODY EXTRACTED</value>
-  <comment>THE ANOMALY WAS CONTAINED // NOBODY EXTRACTED</comment>
+  <value>ANOMALY CONTAINED // NOBODY EXTRACTED</value>
+  <comment>ANOMALY CONTAINED // NOBODY EXTRACTED</comment>
 </data>
 <data name="EorScreen.ExtractedVerdictLine" xml:space="preserve">
-  <value>{EXTRACTED} OF {TOTAL} OPERATORS EXTRACTED // THE COLONY REMEMBERS</value>
-  <comment>{EXTRACTED} OF {TOTAL} OPERATORS EXTRACTED // THE COLONY REMEMBERS</comment>
+  <value>{EXTRACTED} OF {TOTAL} OPERATORS EXTRACTED</value>
+  <comment>{EXTRACTED} OF {TOTAL} OPERATORS EXTRACTED</comment>
 </data>
 <data name="EorScreen.MetaLine" xml:space="preserve">
   <value>{MODE} // {MAP} // ROUND TIME {TIME} // WAVES REPELLED {WAVES}</value>
@@ -8958,6 +8982,58 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="EorScreen.VoteCastLine" xml:space="preserve">
   <value>VOTE CAST // CLOSES IN {SECONDS}S</value>
   <comment>VOTE CAST // CLOSES IN {SECONDS}S</comment>
+</data>
+<data name="EorScreen.SatisfactionQuestion" xml:space="preserve">
+  <value>DID YOU ENJOY THE ROUND?</value>
+  <comment>DID YOU ENJOY THE ROUND?</comment>
+</data>
+<data name="EorScreen.SatisfactionYes" xml:space="preserve">
+  <value>YES</value>
+  <comment>YES</comment>
+</data>
+<data name="EorScreen.SatisfactionNo" xml:space="preserve">
+  <value>NO</value>
+  <comment>NO</comment>
+</data>
+<data name="EorScreen.SatisfactionNoTipHeader" xml:space="preserve">
+  <value>VOTE NO IF THE ROUND WAS BAD</value>
+  <comment>VOTE NO IF THE ROUND WAS BAD</comment>
+</data>
+<data name="EorScreen.SatisfactionNoTipBody" xml:space="preserve">
+  <value>DULL, BROKEN, OR A WASTE OF YOUR TIME. GRUNTZ AIMS FOR AUTHENTIC COMBAT: NOBODY HERE IS THE HERO, AND YOU ARE GOING TO DIE. LOSING IS FUN.</value>
+  <comment>DULL, BROKEN, OR A WASTE OF YOUR TIME. GRUNTZ AIMS FOR AUTHENTIC COMBAT: NOBODY HERE IS THE HERO, AND YOU ARE GOING TO DIE. LOSING IS FUN.</comment>
+</data>
+<data name="EorScreen.SatisfactionYesTip" xml:space="preserve">
+  <value>YOU CAN CHANGE YOUR VOTE UNTIL VOTING CLOSES.</value>
+  <comment>YOU CAN CHANGE YOUR VOTE UNTIL VOTING CLOSES.</comment>
+</data>
+<data name="EorScreen.SatisfactionClosesLabel" xml:space="preserve">
+  <value>VOTING CLOSES IN</value>
+  <comment>VOTING CLOSES IN</comment>
+</data>
+<data name="EorScreen.SatisfactionCastLabel" xml:space="preserve">
+  <value>VOTE CAST // CLOSES IN</value>
+  <comment>VOTE CAST // CLOSES IN</comment>
+</data>
+<data name="EorScreen.SatisfactionClosedLine" xml:space="preserve">
+  <value>VOTING CLOSED</value>
+  <comment>VOTING CLOSED</comment>
+</data>
+<data name="EorScreen.SatisfactionPercentLine" xml:space="preserve">
+  <value>{PERCENT}%</value>
+  <comment>{PERCENT}%</comment>
+</data>
+<data name="EorScreen.SatisfactionNoResult" xml:space="preserve">
+  <value>--</value>
+  <comment>--</comment>
+</data>
+<data name="EorScreen.SatisfactionVotesLine" xml:space="preserve">
+  <value>{VOTES} VOTES</value>
+  <comment>{VOTES} VOTES</comment>
+</data>
+<data name="EorScreen.SatisfactionShortLine" xml:space="preserve">
+  <value>{VOTES} OF {PLAYERS} VOTED // NEED {NEEDED}</value>
+  <comment>{VOTES} OF {PLAYERS} VOTED // NEED {NEEDED}</comment>
 </data>
 <data name="EorScreen.FooterArchiveLine" xml:space="preserve">
   <value>ROUND ARCHIVED // W-Y COLONY NET // NEXT OPERATION PENDING</value>
@@ -12275,6 +12351,30 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Help new players get started.</value>
   <comment>Help new players get started.</comment>
 </data>
+<data name="ContentWarning.Title" xml:space="preserve">
+  <value>Content Warning</value>
+  <comment>Content Warning</comment>
+</data>
+<data name="ContentWarning.OkayLabel" xml:space="preserve">
+  <value>OKAY</value>
+  <comment>OKAY</comment>
+</data>
+<data name="ContentWarning.DisableLabel" xml:space="preserve">
+  <value>DISABLE</value>
+  <comment>DISABLE</comment>
+</data>
+<data name="ContentWarning.Themes" xml:space="preserve">
+  <value>Gruntz is not appropriate for children of any age. It explores dark themes and contains graphic depictions of combat, violence, blood, gore, and drug use.</value>
+  <comment>Gruntz is not appropriate for children of any age. It explores dark themes and contains graphic depictions of combat, violence, blood, gore, and drug use.</comment>
+</data>
+<data name="ContentWarning.Photosensitivity" xml:space="preserve">
+  <value>The game features intense audio and visual effects, including bright flashing lights and strobing effects that may affect photosensitive players.</value>
+  <comment>The game features intense audio and visual effects, including bright flashing lights and strobing effects that may affect photosensitive players.</comment>
+</data>
+<data name="ContentWarning.RealWorld" xml:space="preserve">
+  <value>In the real world, gambling, drugs, alcohol, and combat destroy lives.</value>
+  <comment>In the real world, gambling, drugs, alcohol, and combat destroy lives.</comment>
+</data>
 <data name="Def.Crate.DisplayName" xml:space="preserve">
   <value>crate</value>
   <comment>crate</comment>
@@ -12346,6 +12446,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.TestCutFence.Broken.DisplayName" xml:space="preserve">
   <value>test cut fence</value>
   <comment>test cut fence</comment>
+</data>
+<data name="Def.TestHoverObstacle.DisplayName" xml:space="preserve">
+  <value>test hover obstacle</value>
+  <comment>test hover obstacle</comment>
 </data>
 <data name="Def.TestYieldStructure.DisplayName" xml:space="preserve">
   <value>test yield structure</value>
@@ -14443,6 +14547,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>test ladder</value>
   <comment>test ladder</comment>
 </data>
+<data name="Def.TestBreakLadder.DisplayName" xml:space="preserve">
+  <value>test breakable ladder</value>
+  <comment>test breakable ladder</comment>
+</data>
+<data name="Def.TestBrokenLadder.DisplayName" xml:space="preserve">
+  <value>test broken ladder</value>
+  <comment>test broken ladder</comment>
+</data>
 <data name="Def.TestBreakCrate.DisplayName" xml:space="preserve">
   <value>test break crate</value>
   <comment>test break crate</comment>
@@ -14726,10 +14838,6 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Def.Character.Anomaly.Behemoth.Wave.DisplayName" xml:space="preserve">
   <value>behemoth</value>
   <comment>behemoth</comment>
-</data>
-<data name="Def.Character.Anomaly.Skitter.Thrall.DisplayName" xml:space="preserve">
-  <value>thrall</value>
-  <comment>thrall</comment>
 </data>
 <data name="Def.Character.Anomaly.Venator.DisplayName" xml:space="preserve">
   <value>venator</value>
