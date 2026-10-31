@@ -4615,6 +4615,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value> CPR time</value>
   <comment> CPR time</comment>
 </data>
+<data name="TraitChips.Unit.BulletDamage" xml:space="preserve">
+  <value> Bullet damage</value>
+  <comment> Bullet damage</comment>
+</data>
 <data name="TraitChips.Unit.MovementSpeedWhileWet" xml:space="preserve">
   <value> Movement speed while wet</value>
   <comment> Movement speed while wet</comment>
@@ -8579,6 +8583,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>NVG</value>
   <comment>NVG</comment>
 </data>
+<data name="DeadOverlay.VisionHealthLabel" xml:space="preserve">
+  <value>HEALTH</value>
+  <comment>HEALTH</comment>
+</data>
 <data name="DeadOverlay.PrevLabel" xml:space="preserve">
   <value>&lt; PREV</value>
   <comment>&lt; PREV</comment>
@@ -8608,8 +8616,8 @@ The file is looked up beside this language file first, then under the game's Con
   <comment>You can still be revived while released.</comment>
 </data>
 <data name="DeadOverlay.VisionTip" xml:space="preserve">
-  <value>Cycle the view: GHOST, OBSERVE without the ghost effect, or NVG night vision.</value>
-  <comment>Cycle the view: GHOST, OBSERVE without the ghost effect, or NVG night vision.</comment>
+  <value>Cycle the view: GHOST, OBSERVE without the ghost effect, NVG night vision, or HEALTH with a medical HUD.</value>
+  <comment>Cycle the view: GHOST, OBSERVE without the ghost effect, NVG night vision, or HEALTH with a medical HUD.</comment>
 </data>
 <data name="DeadOverlay.ObserveLockedTip" xml:space="preserve">
   <value>Available once you can no longer be revived.</value>
@@ -8702,6 +8710,10 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="WorldMap.LegendAnomalyLabel" xml:space="preserve">
   <value>ANOMALY</value>
   <comment>ANOMALY</comment>
+</data>
+<data name="WorldMap.LegendEastLabel" xml:space="preserve">
+  <value>EAST</value>
+  <comment>EAST</comment>
 </data>
 <data name="WorldMap.LegendWaveLabel" xml:space="preserve">
   <value>WAVE</value>
@@ -12350,6 +12362,86 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="NewPlayer.Flavor" xml:space="preserve">
   <value>Help new players get started.</value>
   <comment>Help new players get started.</comment>
+</data>
+<data name="Crown.Ecg.Title" xml:space="preserve">
+  <value>REVIVABLE</value>
+  <comment>REVIVABLE</comment>
+</data>
+<data name="Crown.Ecg.Flavor" xml:space="preserve">
+  <value>Shock or CPR before the window closes.</value>
+  <comment>Shock or CPR before the window closes.</comment>
+</data>
+<data name="Crown.Dnr.Title" xml:space="preserve">
+  <value>DO NOT RESUSCITATE</value>
+  <comment>DO NOT RESUSCITATE</comment>
+</data>
+<data name="Crown.Dnr.Flavor" xml:space="preserve">
+  <value>Nobody is home. A revive will not take.</value>
+  <comment>Nobody is home. A revive will not take.</comment>
+</data>
+<data name="Crown.Heart.Title" xml:space="preserve">
+  <value>HEART DAMAGED</value>
+  <comment>HEART DAMAGED</comment>
+</data>
+<data name="Crown.Heart.Flavor" xml:space="preserve">
+  <value>Repair the heart before a shock will take.</value>
+  <comment>Repair the heart before a shock will take.</comment>
+</data>
+<data name="Crown.Skull.Title" xml:space="preserve">
+  <value>PERMANENTLY DEAD</value>
+  <comment>PERMANENTLY DEAD</comment>
+</data>
+<data name="Crown.Skull.Flavor" xml:space="preserve">
+  <value>Beyond revival.</value>
+  <comment>Beyond revival.</comment>
+</data>
+<data name="Crown.Shrapnel.Title" xml:space="preserve">
+  <value>SHRAPNEL</value>
+  <comment>SHRAPNEL</comment>
+</data>
+<data name="Crown.Shrapnel.Flavor" xml:space="preserve">
+  <value>Embedded fragments. Have them removed.</value>
+  <comment>Embedded fragments. Have them removed.</comment>
+</data>
+<data name="HealthBar.Light.Title" xml:space="preserve">
+  <value>LIGHTLY WOUNDED</value>
+  <comment>LIGHTLY WOUNDED</comment>
+</data>
+<data name="HealthBar.Light.Flavor" xml:space="preserve">
+  <value>Walking wounded. A patch will do.</value>
+  <comment>Walking wounded. A patch will do.</comment>
+</data>
+<data name="HealthBar.Wounded.Title" xml:space="preserve">
+  <value>WOUNDED</value>
+  <comment>WOUNDED</comment>
+</data>
+<data name="HealthBar.Wounded.Flavor" xml:space="preserve">
+  <value>Needs treatment before the next push.</value>
+  <comment>Needs treatment before the next push.</comment>
+</data>
+<data name="HealthBar.Badly.Title" xml:space="preserve">
+  <value>BADLY WOUNDED</value>
+  <comment>BADLY WOUNDED</comment>
+</data>
+<data name="HealthBar.Badly.Flavor" xml:space="preserve">
+  <value>Close to dropping. Treat them now.</value>
+  <comment>Close to dropping. Treat them now.</comment>
+</data>
+<data name="HealthBar.Failing.Title" xml:space="preserve">
+  <value>FAILING</value>
+  <comment>FAILING</comment>
+</data>
+<data name="HealthBar.Failing.Flavor" xml:space="preserve">
+  <value>Barely standing. Get them to a medic.</value>
+  <comment>Barely standing. Get them to a medic.</comment>
+</data>
+<data name="HealthBar.Critical.Title" xml:space="preserve">
+  <value>CRITICAL</value>
+  <comment>CRITICAL</comment>
+</data>
+<data name="HealthBar.Critical.Flavor" xml:space="preserve">
+  <value>Dying. Stabilize them now.</value>
+  <comment>Dying. Stabilize them now.</comment>
 </data>
 <data name="ContentWarning.Title" xml:space="preserve">
   <value>Content Warning</value>
@@ -78411,6 +78503,30 @@ The file is looked up beside this language file first, then under the game's Con
   <value>pick up</value>
   <comment>pick up</comment>
 </data>
+<data name="Def.Character.Human.East.DisplayName" xml:space="preserve">
+  <value>East rifleman</value>
+  <comment>East rifleman</comment>
+</data>
+<data name="Def.Character.Human.East.Verb.Teleport" xml:space="preserve">
+  <value>teleport</value>
+  <comment>teleport</comment>
+</data>
+<data name="Def.Character.Human.East.Verb.MoveTo" xml:space="preserve">
+  <value>move to</value>
+  <comment>move to</comment>
+</data>
+<data name="Def.Character.Human.East.Wave.DisplayName" xml:space="preserve">
+  <value>East rifleman</value>
+  <comment>East rifleman</comment>
+</data>
+<data name="Def.Character.Human.East.Wave.Verb.Teleport" xml:space="preserve">
+  <value>teleport</value>
+  <comment>teleport</comment>
+</data>
+<data name="Def.Character.Human.East.Wave.Verb.MoveTo" xml:space="preserve">
+  <value>move to</value>
+  <comment>move to</comment>
+</data>
 <data name="StackFamily.TestPlank" xml:space="preserve">
   <value>TestPlank</value>
   <comment>TestPlank</comment>
@@ -79022,6 +79138,14 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Trait.HeavyDrinker.Flavor" xml:space="preserve">
   <value>Has put away enough to know exactly how much more they can take.</value>
   <comment>Has put away enough to know exactly how much more they can take.</comment>
+</data>
+<data name="Trait.EastConscript.Name" xml:space="preserve">
+  <value>Conscript</value>
+  <comment>Conscript</comment>
+</data>
+<data name="Trait.EastConscript.Flavor" xml:space="preserve">
+  <value>Drafted, drilled for a month and handed a rifle. Shoots high and hits soft.</value>
+  <comment>Drafted, drilled for a month and handed a rifle. Shoots high and hits soft.</comment>
 </data>
 <data name="Emote.Warcry.GetSome" xml:space="preserve">
   <value>GET SOME!</value>
@@ -81947,6 +82071,10 @@ The file is looked up beside this language file first, then under the game's Con
   <value>Flamer</value>
   <comment>Flamer</comment>
 </data>
+<data name="Loadout.East.Rifleman.Name" xml:space="preserve">
+  <value>East rifleman</value>
+  <comment>East rifleman</comment>
+</data>
 <data name="Intro.CAPE.Title" xml:space="preserve">
   <value>CAPE RIVER</value>
   <comment>CAPE RIVER</comment>
@@ -82083,6 +82211,14 @@ The file is looked up beside this language file first, then under the game's Con
   <value>SURVIVORS MUST REACH THE EXTRACTION SITE // THE EXTRACTION PHASE LASTS {ExtractionMinutes} MINUTES</value>
   <comment>SURVIVORS MUST REACH THE EXTRACTION SITE // THE EXTRACTION PHASE LASTS {ExtractionMinutes} MINUTES</comment>
 </data>
+<data name="Modifier.PeoplesArmy.Label" xml:space="preserve">
+  <value>PEOPLE'S ARMY</value>
+  <comment>PEOPLE'S ARMY</comment>
+</data>
+<data name="Modifier.PeoplesArmy.Tooltip" xml:space="preserve">
+  <value>THE EAST PEOPLE'S ARMY ADVANCES ON THE COLONY // PLATOONS PATROL TO CONTACT // THE WAVE ASSAULT PHASE LASTS {WaveAssaultMinutes} MINUTES</value>
+  <comment>THE EAST PEOPLE'S ARMY ADVANCES ON THE COLONY // PLATOONS PATROL TO CONTACT // THE WAVE ASSAULT PHASE LASTS {WaveAssaultMinutes} MINUTES</comment>
+</data>
 <data name="Mode.Extended.DisplayName" xml:space="preserve">
   <value>Extended</value>
   <comment>Extended</comment>
@@ -82106,5 +82242,9 @@ The file is looked up beside this language file first, then under the game's Con
 <data name="Mode.Anomaly.Phase.Containment.Label" xml:space="preserve">
   <value>ANOMALY CONTAINMENT</value>
   <comment>ANOMALY CONTAINMENT</comment>
+</data>
+<data name="Mode.Incursion.DisplayName" xml:space="preserve">
+  <value>Incursion</value>
+  <comment>Incursion</comment>
 </data>
 </root>
