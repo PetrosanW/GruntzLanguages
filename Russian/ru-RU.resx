@@ -33924,67 +33924,67 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (10x24 мм)</value>
   <comment>AK-4047 magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Empty.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (10x24 мм)</value>
   <comment>AK-4047 magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Ap.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Ap.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (бронебойные, 10x24 мм)</value>
   <comment>AK-4047 AP magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Ap.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Ap.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Ap.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Ap.Empty.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (бронебойные, 10x24 мм)</value>
   <comment>AK-4047 AP magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Ap.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Ap.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Heap.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Heap.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (БФ, 10x24 мм)</value>
   <comment>AK-4047 HEAP magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Heap.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Heap.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Heap.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Heap.Empty.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (БФ, 10x24 мм)</value>
   <comment>AK-4047 HEAP magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Heap.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Heap.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Incendiary.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Incendiary.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (зажигательные, 10x24 мм)</value>
   <comment>AK-4047 incendiary magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Incendiary.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Incendiary.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Incendiary.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Incendiary.Empty.DisplayName" xml:space="preserve">
   <value>магазин AK-4047 (зажигательные, 10x24 мм)</value>
   <comment>AK-4047 incendiary magazine (10x24mm)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak4047.Incendiary.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoMagazine.Rifle.Ak47.Incendiary.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
@@ -36544,35 +36544,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>сложен</value>
   <comment>folded</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.DisplayName" xml:space="preserve">
   <value>складной приклад AK-4047</value>
   <comment>AK-4047 folding stock</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Verb.Toggle" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.Verb.Toggle" xml:space="preserve">
   <value>свернуть приклад</value>
   <comment>collapse stock</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Verb.Toggle.State" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.Verb.Toggle.State" xml:space="preserve">
   <value>приклад</value>
   <comment>stock</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Folded.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.Folded.DisplayName" xml:space="preserve">
   <value>складной приклад AK-4047</value>
   <comment>AK-4047 folding stock</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Folded.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.Folded.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Folded.Verb.Toggle" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.Folded.Verb.Toggle" xml:space="preserve">
   <value>разложить приклад</value>
   <comment>extend stock</comment>
 </data>
-<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak4047.Folded.Verb.Toggle.State" xml:space="preserve">
+<data name="Def.Obj.Item.Attachable.Stock.Rifle.Collapsible.Ak47.Folded.Verb.Toggle.State" xml:space="preserve">
   <value>сложен</value>
   <comment>folded</comment>
 </data>
@@ -64736,35 +64736,35 @@ The file is looked up beside this language file first, then under the game's Con
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.DisplayName" xml:space="preserve">
   <value>импульсная винтовка AK-4047</value>
   <comment>AK-4047 pulse assault rifle</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.Empty.DisplayName" xml:space="preserve">
   <value>импульсная винтовка AK-4047</value>
   <comment>AK-4047 pulse assault rifle</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.Tactical.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.Tactical.DisplayName" xml:space="preserve">
   <value>импульсная винтовка AK-4047</value>
   <comment>AK-4047 pulse assault rifle</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.Tactical.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.Tactical.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.Tactical.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.Tactical.Empty.DisplayName" xml:space="preserve">
   <value>импульсная винтовка AK-4047</value>
   <comment>AK-4047 pulse assault rifle</comment>
 </data>
-<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak4047.Tactical.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.Weapon.Gun.Rifle.Ak47.Tactical.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
@@ -73808,83 +73808,83 @@ The file is looked up beside this language file first, then under the game's Con
   <value>ящик магазинов (ББ M16 x 12)</value>
   <comment>magazine box (AP M16 x 12)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.DisplayName" xml:space="preserve">
   <value>ящик магазинов (AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Empty.DisplayName" xml:space="preserve">
   <value>ящик магазинов (AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Deployed.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Deployed.DisplayName" xml:space="preserve">
   <value>ящик магазинов (AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Ap.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Ap.DisplayName" xml:space="preserve">
   <value>ящик магазинов (ББ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 AP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Ap.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Ap.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Ap.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Ap.Empty.DisplayName" xml:space="preserve">
   <value>ящик магазинов (ББ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 AP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Ap.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Ap.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Ap.Deployed.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Ap.Deployed.DisplayName" xml:space="preserve">
   <value>ящик магазинов (ББ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 AP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Heap.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Heap.DisplayName" xml:space="preserve">
   <value>ящик магазинов (БФ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 HEAP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Heap.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Heap.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Heap.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Heap.Empty.DisplayName" xml:space="preserve">
   <value>ящик магазинов (БФ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 HEAP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Heap.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Heap.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Heap.Deployed.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Heap.Deployed.DisplayName" xml:space="preserve">
   <value>ящик магазинов (БФ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 HEAP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Incendiary.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Incendiary.DisplayName" xml:space="preserve">
   <value>ящик магазинов (БФ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 HEAP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Incendiary.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Incendiary.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Incendiary.Empty.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Incendiary.Empty.DisplayName" xml:space="preserve">
   <value>ящик магазинов (БФ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 HEAP x 10)</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Incendiary.Empty.Verb.PickUp" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Incendiary.Empty.Verb.PickUp" xml:space="preserve">
   <value>подобрать</value>
   <comment>pick up</comment>
 </data>
-<data name="Def.Obj.Item.AmmoBox.Magazine.Ak4047.Incendiary.Deployed.DisplayName" xml:space="preserve">
+<data name="Def.Obj.Item.AmmoBox.Magazine.Ak47.Incendiary.Deployed.DisplayName" xml:space="preserve">
   <value>ящик магазинов (БФ AK-4047 x 10)</value>
   <comment>magazine box (AK-4047 HEAP x 10)</comment>
 </data>
